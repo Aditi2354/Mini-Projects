@@ -1,0 +1,384 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+height: 100vh;
+overflow-y: auto;
+overflow-x: hidden;
+display: flex;
+}
+
+.container{
+position: absolute;
+width: 1240px;
+height: 1661px;
+left: 90px;
+top:5px;
+margin: 0 auto;
+border-radius: 0px;
+box-shadow: 2px 2px 10px gray;
+justify-content: center;
+align-items: center;
+}
+.logo:hover{
+transform: scale(1.03);
+filter: drop-shadow(0 0 5px rgb(173, 169, 169));
+transition: 0.4s;
+}
+
+.logo{
+position: absolute;
+width: 70px;
+height: 60px;
+left:130px;
+top:53px;
+}
+.Team{
+position:absolute;
+width: 51px;
+height:20px ;
+left:400px;
+top: 74px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color:#4E5DC0;
+cursor: pointer;
+}
+.Aboutus{
+  position: absolute;  
+  width: 70px;
+  height: 20px;
+  left:500px;
+  top:74px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight:600;
+   font-size: 18px;
+   line-height: 20px;
+   color: #777C85;
+}
+.Courses{
+    position: absolute;  
+    width: 70px;
+    height: 20px;
+    left:600px;
+    top:74px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight:600;
+     font-size: 18px;
+     line-height: 20px;
+     color: #777C85;
+}
+.Contact{
+    position: absolute;  
+    width: 70px;
+    height: 20px;
+    left:700px;
+    top:74px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight:600;
+     font-size: 18px;
+     line-height: 20px;
+     color: #777C85;
+}
+.btn{
+position: absolute;
+width: 165px;
+height:54px;
+left:1000px;
+top:54px;
+background: #4E5DC0;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.txt{
+color: white;
+}
+.Codehelp{
+position: absolute;
+width: 302px;
+height:40px;
+left:117px;
+top:266px;
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 45px;
+color: #16171C;
+font-variation-settings: 'GRAD' 122,'SLINT' 0,'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203,'YTFI' 738  ;
+}
+.line{
+position: absolute;
+width: 230px;
+height: 0px;
+left: 117px;
+top: 321px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.txt1{
+position: absolute;
+width: 573px;
+height: 272px;
+left: 117px;
+top: 373px;
+font-family: 'Raleway';
+font-style: normal;
+font-size: 20px;
+line-height: 34px;
+color: #000000;
+opacity: 0.5;
+}
+.microsoft{
+position: absolute;
+width: 420px;
+height: 327px;
+left:740px;
+top: 266px;
+border-radius: 20px;
+}
+.love{
+position: absolute;
+width: 350px;
+height: 350px;
+left: 117px;
+top: 740px;
+border-radius: 20px;
+}
+.founder{
+    position: absolute;
+    width: 260px;
+    height:40px;
+    left:741px;
+    top:730px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #16171C;
+    font-variation-settings: 'GRAD' 122,'SLINT' 0,'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203,'YTFI' 738  ;
+}
+.line1{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 741px;
+    top: 780px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.txt2{
+    position: absolute;
+    width: 573px;
+    height: 252px;
+    left: 644px;
+    top: 840px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    opacity: 0.5;
+}
+.line2{
+position: absolute;
+border: 1.5px solid #E1E2E4;
+width: 1240px;
+height: 0px;
+top:1200px
+}
+.logo1{
+position: absolute;
+width: 70px;
+height: 60px;
+left:130px;
+top:1300px;
+}
+.policy{
+position: absolute;
+width: 217px;
+height: 22px;
+left:125px ;
+top: 1410px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 3px;
+text-decoration-line:underline;
+text-transform: uppercase;
+color: #4E5DC0;
+}
+.lorem{
+position: absolute;
+width: 209px;
+height:60px;
+left: 120px;
+top:1440px ;
+font-family:'Raleway' ;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+color: #999999;
+}
+.Add{
+position: absolute;
+width: 92px;
+height: 32px;
+left: 460px;
+top:1270px ;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #4E5DC0;
+}
+.tit{
+    position: absolute;
+    width: 332px;
+    height: 96px;
+    left: 460px;
+    top:1310px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+.mail{
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 460px;
+    top:1440px ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4E5DC0;
+}
+.mai{
+    position: absolute;
+    width: 185px;
+    height: 32px;
+    left: 460px;
+    top:1470px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999; 
+    cursor: pointer;
+}
+.mai:hover{
+background-color: hsl(0, 0%, 78%);
+}
+.menu{
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    left: 840px;
+    top:1262px ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4E5DC0;
+}
+.T{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 840px;
+    top:1312px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999; 
+}
+.A{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 840px;
+    top:1342px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color:  #4E5DC0 ;
+}
+.C{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 840px;
+    top:1372px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+.CO{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 840px;
+    top:1402px ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+.c1{
+position: absolute;
+width: 65px;
+height: 65px;
+left:1000px;
+top:1242px;
+border-radius: 60px;
+}
+.c2{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left:1070px;
+    top:1247px;
+    border-radius: 60px;
+}
+.c3{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left:1130px;
+    top:1242px;
+    border-radius: 60px;
+}
